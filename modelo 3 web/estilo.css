@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    list-style: none;
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu li{
+    padding: 10px;
+    padding-right: 40px;
+}
+.logo{
+ padding: 10px;padding-left: 20px;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+height: 100vh;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.main{
+ background-image: url(./img/corrida-de-ia-global-de-tecnologia-conexao-de-rede-de-informacao_53876-129786.avif);
+
+}
+.main h1{
+    color: white;
+    font-size: 7rem;
+     width: 300px; 
+    padding: 30px;
+    padding-left: 50px;
+}
+.main p{
+    color: white;
+    font-size: 1.5rem;
+   width: 50%;
+    padding: 30px;
+    padding-left: 50px;
+}
+.test{
+    background-color: white!important;
+}
+.test h1{
+color: blueviolet;
+padding: 15px;
+}
+.test p{
+padding:20px ;
+}
+.testa img{
+ position: absolute;
+ right: 100px;
+ top: 200px;
+ width: 300px;
+ height: 400px;
+}
